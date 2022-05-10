@@ -6,3 +6,9 @@ Color Selection:
         - can use the setRGB function
     - HSV: determines the LED output via Hue, Saturation, Value
         - The Value field represents the Brightness
+
+The LED strip:
+    - GROUND = BLACK
+    - POWER  = RED
+    - DATA   = GREEN
+        - Data pin can be any pin on the board, unlike when controlling single pins with PWM

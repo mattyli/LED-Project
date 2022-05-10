@@ -33,3 +33,4 @@ For my particular model of strip:
 
 ## Helpful Links
   1. <a>https://howtomechatronics.com/tutorials/arduino/how-to-control-ws2812b-individually-addressable-leds-using-arduino/</a>
+  2. <a>https://github.com/FastLED</a>
