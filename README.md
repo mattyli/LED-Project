@@ -1,4 +1,4 @@
-## roomlights-arduino
+# roomlights-arduino
 Code for my arduino LED lights that will go in my room. 
 I hope to finish this before the end of Summer of 2022, but we shall see.
 
@@ -34,3 +34,26 @@ For my particular model of strip:
 ## Helpful Links
   1. <a>https://howtomechatronics.com/tutorials/arduino/how-to-control-ws2812b-individually-addressable-leds-using-arduino/</a>
   2. <a>https://github.com/FastLED</a>
+
+
+## Notes
+Color Selection:
+    - There are 2 primary ways to select LED color: RGB and HSV
+    - RGB: the simplest, integer values from 0-255 for the respective Red, Blue, Green fields
+        - can set individual LED RGB values using dot notation
+        - can use the setRGB function
+    - HSV: determines the LED output via Hue, Saturation, Value
+        - The Value field represents the Brightness
+
+The LED strip:
+    - GROUND = BLACK
+    - POWER  = RED
+    - DATA   = GREEN
+        - Data pin can be any pin on the board, unlike when controlling single pins with PWM
+    - WS2812B = Adafruit NEOPIXEL (use neopixel)
+
+## Tasks
+Patterns
+  - define pattern that cycles from opposites from end-to-end of color 'spectrum infinitely'
+  - define solid state colors
+  - 
